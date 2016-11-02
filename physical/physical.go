@@ -128,7 +128,8 @@ var builtinBackends = map[string]Factory{
 	"mysql":      newMySQLBackend,
 	"postgresql": newPostgreSQLBackend,
 	"swift":      newSwiftBackend,
-	"gcs":     newGCSBackend,
+	"gcs":        newGCSBackend,
+	"canoe":      newCanoeBackend,
 }
 
 // PermitPool is used to limit maximum outstanding requests
